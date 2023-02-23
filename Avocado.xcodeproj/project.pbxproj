@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790EAE762853CAC300DCC382 /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAE752853CAC300DCC382 /* PaintView.swift */; };
+		790EAE782854972900DCC382 /* FruitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAE772854972900DCC382 /* FruitsListView.swift */; };
+		790EAE7A2854974C00DCC382 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790EAE792854974C00DCC382 /* FruitCardView.swift */; };
+		793E294027EE36BA00405539 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E293F27EE36BA00405539 /* DishesView.swift */; };
+		793E294227EE57CD00405539 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E294127EE57CD00405539 /* FactsView.swift */; };
+		793E294427EF6D1500405539 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E294327EF6D1500405539 /* FactModel.swift */; };
+		793E294627EF6DAA00405539 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E294527EF6DAA00405539 /* FactData.swift */; };
+		793E294827EF8E2200405539 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E294727EF8E2200405539 /* RecipeModel.swift */; };
+		793E294A27EF8EF700405539 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E294927EF8EF700405539 /* RecipeData.swift */; };
+		793E294C27EF8F9B00405539 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E294B27EF8F9B00405539 /* RecipeCardView.swift */; };
+		793E294E27F01CB400405539 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E294D27F01CB400405539 /* RipeningModel.swift */; };
+		793E295027F01D4200405539 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E294F27F01D4200405539 /* RipeningData.swift */; };
+		7966A1AE279B3AEC00C4FDEE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966A1AD279B3AEC00C4FDEE /* HeaderView.swift */; };
+		7966A1B0279B543E00C4FDEE /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966A1AF279B543E00C4FDEE /* HeaderModel.swift */; };
+		7966A1B2279B551900C4FDEE /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966A1B1279B551900C4FDEE /* HeaderData.swift */; };
 		7996A58A27909BCF00B0874C /* AvocadoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996A58927909BCF00B0874C /* AvocadoApp.swift */; };
 		7996A58C27909BCF00B0874C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996A58B27909BCF00B0874C /* ContentView.swift */; };
 		7996A58E27909BD000B0874C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7996A58D27909BD000B0874C /* Assets.xcassets */; };
@@ -14,6 +29,14 @@
 		7996A59B27909BD000B0874C /* AvocadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996A59A27909BD000B0874C /* AvocadoTests.swift */; };
 		7996A5A527909BD000B0874C /* AvocadoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996A5A427909BD000B0874C /* AvocadoUITests.swift */; };
 		7996A5A727909BD000B0874C /* AvocadoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996A5A627909BD000B0874C /* AvocadoUITestsLaunchTests.swift */; };
+		7996A5B92790A42000B0874C /* AvocadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996A5B82790A42000B0874C /* AvocadoView.swift */; };
+		7996A5BB2790A44600B0874C /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996A5BA2790A44600B0874C /* RipeningView.swift */; };
+		7996A5BD2790A45500B0874C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996A5BC2790A45500B0874C /* SettingsView.swift */; };
+		7996A5BF2790A4A300B0874C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996A5BE2790A4A300B0874C /* MainView.swift */; };
+		79D71A4F27F8CC9F00D827FE /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D71A4E27F8CC9F00D827FE /* RecipeRatingView.swift */; };
+		79D71A5127F8CD6E00D827FE /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D71A5027F8CD6E00D827FE /* RecipeCookingView.swift */; };
+		79D71A5327F8CE0100D827FE /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D71A5227F8CE0100D827FE /* RecipeDetailView.swift */; };
+		79D71A5527FA194700D827FE /* RipeningStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D71A5427FA194700D827FE /* RipeningStageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790EAE752853CAC300DCC382 /* PaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
+		790EAE772854972900DCC382 /* FruitsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsListView.swift; sourceTree = "<group>"; };
+		790EAE792854974C00DCC382 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		793E293F27EE36BA00405539 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		793E294127EE57CD00405539 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		793E294327EF6D1500405539 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		793E294527EF6DAA00405539 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
+		793E294727EF8E2200405539 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		793E294927EF8EF700405539 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		793E294B27EF8F9B00405539 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		793E294D27F01CB400405539 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		793E294F27F01D4200405539 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
+		7966A1AD279B3AEC00C4FDEE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		7966A1AF279B543E00C4FDEE /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		7966A1B1279B551900C4FDEE /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		7996A58627909BCF00B0874C /* Avocado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7996A58927909BCF00B0874C /* AvocadoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoApp.swift; sourceTree = "<group>"; };
 		7996A58B27909BCF00B0874C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +82,15 @@
 		7996A5A027909BD000B0874C /* AvocadoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvocadoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7996A5A427909BD000B0874C /* AvocadoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoUITests.swift; sourceTree = "<group>"; };
 		7996A5A627909BD000B0874C /* AvocadoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7996A5B32790A28100B0874C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7996A5B82790A42000B0874C /* AvocadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoView.swift; sourceTree = "<group>"; };
+		7996A5BA2790A44600B0874C /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		7996A5BC2790A45500B0874C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7996A5BE2790A4A300B0874C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		79D71A4E27F8CC9F00D827FE /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
+		79D71A5027F8CD6E00D827FE /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
+		79D71A5227F8CE0100D827FE /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		79D71A5427FA194700D827FE /* RipeningStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +141,11 @@
 		7996A58827909BCF00B0874C /* Avocado */ = {
 			isa = PBXGroup;
 			children = (
-				7996A58927909BCF00B0874C /* AvocadoApp.swift */,
-				7996A58B27909BCF00B0874C /* ContentView.swift */,
+				7996A5B72790A3B600B0874C /* View */,
+				7996A5B62790A3AF00B0874C /* Model */,
+				7996A5B52790A3A800B0874C /* App */,
+				7996A5B42790A3A000B0874C /* Data */,
+				7996A5B32790A28100B0874C /* Info.plist */,
 				7996A58D27909BD000B0874C /* Assets.xcassets */,
 				7996A58F27909BD000B0874C /* Preview Content */,
 			);
@@ -125,6 +175,59 @@
 				7996A5A627909BD000B0874C /* AvocadoUITestsLaunchTests.swift */,
 			);
 			path = AvocadoUITests;
+			sourceTree = "<group>";
+		};
+		7996A5B42790A3A000B0874C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7966A1B1279B551900C4FDEE /* HeaderData.swift */,
+				793E294527EF6DAA00405539 /* FactData.swift */,
+				793E294927EF8EF700405539 /* RecipeData.swift */,
+				793E294F27F01D4200405539 /* RipeningData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7996A5B52790A3A800B0874C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7996A58927909BCF00B0874C /* AvocadoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7996A5B62790A3AF00B0874C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7966A1AF279B543E00C4FDEE /* HeaderModel.swift */,
+				793E294327EF6D1500405539 /* FactModel.swift */,
+				793E294727EF8E2200405539 /* RecipeModel.swift */,
+				793E294D27F01CB400405539 /* RipeningModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7996A5B72790A3B600B0874C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7996A58B27909BCF00B0874C /* ContentView.swift */,
+				7996A5B82790A42000B0874C /* AvocadoView.swift */,
+				7996A5BA2790A44600B0874C /* RipeningView.swift */,
+				7996A5BC2790A45500B0874C /* SettingsView.swift */,
+				7996A5BE2790A4A300B0874C /* MainView.swift */,
+				7966A1AD279B3AEC00C4FDEE /* HeaderView.swift */,
+				793E293F27EE36BA00405539 /* DishesView.swift */,
+				793E294127EE57CD00405539 /* FactsView.swift */,
+				793E294B27EF8F9B00405539 /* RecipeCardView.swift */,
+				79D71A4E27F8CC9F00D827FE /* RecipeRatingView.swift */,
+				79D71A5027F8CD6E00D827FE /* RecipeCookingView.swift */,
+				79D71A5227F8CE0100D827FE /* RecipeDetailView.swift */,
+				79D71A5427FA194700D827FE /* RipeningStageView.swift */,
+				790EAE752853CAC300DCC382 /* PaintView.swift */,
+				790EAE772854972900DCC382 /* FruitsListView.swift */,
+				790EAE792854974C00DCC382 /* FruitCardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +360,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7996A5BD2790A45500B0874C /* SettingsView.swift in Sources */,
+				7996A5BF2790A4A300B0874C /* MainView.swift in Sources */,
 				7996A58C27909BCF00B0874C /* ContentView.swift in Sources */,
+				7996A5BB2790A44600B0874C /* RipeningView.swift in Sources */,
+				7996A5B92790A42000B0874C /* AvocadoView.swift in Sources */,
 				7996A58A27909BCF00B0874C /* AvocadoApp.swift in Sources */,
+				79D71A5327F8CE0100D827FE /* RecipeDetailView.swift in Sources */,
+				79D71A5527FA194700D827FE /* RipeningStageView.swift in Sources */,
+				7966A1B0279B543E00C4FDEE /* HeaderModel.swift in Sources */,
+				793E294827EF8E2200405539 /* RecipeModel.swift in Sources */,
+				7966A1B2279B551900C4FDEE /* HeaderData.swift in Sources */,
+				790EAE782854972900DCC382 /* FruitsListView.swift in Sources */,
+				793E295027F01D4200405539 /* RipeningData.swift in Sources */,
+				793E294427EF6D1500405539 /* FactModel.swift in Sources */,
+				793E294027EE36BA00405539 /* DishesView.swift in Sources */,
+				79D71A4F27F8CC9F00D827FE /* RecipeRatingView.swift in Sources */,
+				793E294227EE57CD00405539 /* FactsView.swift in Sources */,
+				790EAE7A2854974C00DCC382 /* FruitCardView.swift in Sources */,
+				793E294C27EF8F9B00405539 /* RecipeCardView.swift in Sources */,
+				790EAE762853CAC300DCC382 /* PaintView.swift in Sources */,
+				793E294A27EF8EF700405539 /* RecipeData.swift in Sources */,
+				79D71A5127F8CD6E00D827FE /* RecipeCookingView.swift in Sources */,
+				7966A1AE279B3AEC00C4FDEE /* HeaderView.swift in Sources */,
+				793E294E27F01CB400405539 /* RipeningModel.swift in Sources */,
+				793E294627EF6DAA00405539 /* FactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +548,10 @@
 				DEVELOPMENT_TEAM = 9GDFZQUNG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avocado/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,9 +578,10 @@
 				DEVELOPMENT_TEAM = 9GDFZQUNG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avocado/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
